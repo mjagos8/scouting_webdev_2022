@@ -274,7 +274,7 @@ export class AnalysisComponent implements OnInit {
   save() {
     var pass = prompt("Password Required to save to Database");
 
-    if(pass == 'hehe hi david') {
+    if(pass == '999') {
       // call API to save Team Selection Data
       alert("Access Approved");
       this.apiService.saveFinal24(this.apiFinal24List);
